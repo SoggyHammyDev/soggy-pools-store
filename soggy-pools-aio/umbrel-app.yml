@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: soggy-pools-aio
+category: bitcoin
+name: Soggy Pools AIO
+version: "0.1.12"
+tagline: Five solo mining nodes, one dashboard
+description: >-
+  Run Bitcoin, Bitcoin Cash, eCash, DigiByte SHA-256d and Bitcoin Cash II nodes and solo pools.
+  Enable only the coins you want, with independent pruning targets from 550 MiB.
+  Includes a dashboard, worker statistics, payout settings and node/pool logs.
+  Block rewards go to the address configured per coin. No pool fee; eCash
+  consensus-required miner fund and staking outputs still apply.
+  Initial beta: validate on your Umbrel before committing substantial hashrate.
+developer: SoggyHammyDev
+website: https://github.com/SoggyHammyDev/soggy-pools-store
+repo: https://github.com/SoggyHammyDev/soggy-pools-store
+support: https://github.com/SoggyHammyDev/soggy-pools-store/issues
+port: 3290
+gallery: []
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: "Overview network hashrate and compact network difficulty for all five coins, SHA-256d-specific DigiByte metrics, and a separate eCash RTT difficulty snapshot. Background polling with age/stale indicators does not block mining supervision. Ports remain 3330-3334; saved settings and chain data are preserved."
+submitter: SoggyHammyDev
+
+icon: https://raw.githubusercontent.com/SoggyHammyDev/soggy-pools-store/main/soggy-pools-aio/icon.svg
