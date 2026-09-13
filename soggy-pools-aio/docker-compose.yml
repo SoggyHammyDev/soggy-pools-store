@@ -4,7 +4,7 @@ services:
       APP_HOST: soggy-pools-aio_server_1
       APP_PORT: 8080
   server:
-    image: ghcr.io/soggyhammydev/soggy-pools-aio:0.1.12
+    image: ghcr.io/soggyhammydev/soggy-pools-aio:0.2.1
     init: true
     restart: on-failure
     stop_grace_period: 3m
@@ -13,13 +13,21 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data:/data
     ports:
+      - "3430:3430"
+      - "3431:3431"
+      - "3432:3432"
+      - "38340:18340"
+      - "38341:18341"
+      - "38342:18342"
       - "3330:3330"
       - "3331:3331"
       - "3332:3332"
       - "3333:3333"
       - "3334:3334"
+      - "3335:3335"
       - "38330:18330"
       - "38331:18331"
       - "38332:18332"
       - "38333:18333"
       - "38334:18334"
+      - "38335:18335"
