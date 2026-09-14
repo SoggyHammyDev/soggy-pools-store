@@ -23,4 +23,4 @@ defaultPassword: ""
 releaseNotes: "Adds Bitcoin II (BC2) on port 3335, separate from BCH2, with safe settings migration, workers, network metrics, Discord alerts and a mandatory native Stratum block acceptance test."
 submitter: SoggyHammyDev
 
-icon: https://raw.githubusercontent.com/SoggyHammyDev/soggy-pools-aio/main/soggy-pools-aio/icon.svg
+icon: https://github.com/SoggyHammyDev/soggy-pools-store/blob/main/soggy-pools-aio/icon.svg
