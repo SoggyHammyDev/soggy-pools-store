@@ -2,7 +2,7 @@ manifestVersion: 1
 id: soggy-pools-aio
 category: bitcoin
 name: Soggy Pools AIO
-version: "0.2.1"
+version: "0.2.12"
 tagline: SHA-256 and Scrypt solo mining
 description: >-
   Development build with SHA-256 pools and a new Scrypt section: Litecoin + Dogecoin
