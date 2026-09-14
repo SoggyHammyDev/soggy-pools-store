@@ -12,7 +12,7 @@ description: >-
   Verify block acceptance and miner compatibility before using paid rentals.
 developer: SoggyHammyDev
 website: https://github.com/SoggyHammyDev/soggy-pools-aio
-repo: https://github.com/SoggyHammyDev/soggy-pools-store
+repo: https://github.com/SoggyHammyDev/soggy-pools-aio
 support: https://github.com/SoggyHammyDev/soggy-pools-aio/issues
 port: 3290
 gallery: []
