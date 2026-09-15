@@ -2,7 +2,7 @@ manifestVersion: 1
 id: soggy-pools-aio
 category: bitcoin
 name: Soggy Pools AIO
-version: "0.2.12"
+version: "0.2.2"
 tagline: SHA-256 and Scrypt solo mining
 description: >-
   Development build with SHA-256 pools and a new Scrypt section: Litecoin + Dogecoin
@@ -20,7 +20,5 @@ dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-releaseNotes: "Adds Bitcoin II (BC2) on port 3335, separate from BCH2, with safe settings migration, workers, network metrics, Discord alerts and a mandatory native Stratum block acceptance test."
+releaseNotes: "Umbrel package 0.2.2 keeps the verified multi-architecture 0.2.1 runtime image and restores the storefront app icon by using the bundled icon.svg instead of a GitHub blob URL."
 submitter: SoggyHammyDev
-
-icon: https://github.com/SoggyHammyDev/soggy-pools-store/blob/main/soggy-pools-aio/icon.svg
