@@ -4,6 +4,7 @@ category: bitcoin
 name: Soggy Pools AIO
 version: "0.2.2"
 tagline: SHA-256 and Scrypt solo mining
+icon: https://raw.githubusercontent.com/SoggyHammyDev/soggy-pools-store/main/soggy-pools-aio/icon.svg
 description: >-
   Development build with SHA-256 pools and a new Scrypt section: Litecoin + Dogecoin
   merged mining, independent DigiByte Scrypt, and independent Bellscoin via AuxPoW.
@@ -20,5 +21,5 @@ dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-releaseNotes: "Umbrel package 0.2.2 now uses the freshly published multi-architecture 0.2.2 runtime image and the bundled icon.svg for storefront display."
+releaseNotes: "Umbrel package 0.2.2 now uses the freshly published multi-architecture 0.2.2 runtime image and a public raw SVG storefront icon."
 submitter: SoggyHammyDev
