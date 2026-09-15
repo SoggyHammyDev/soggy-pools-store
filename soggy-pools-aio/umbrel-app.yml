@@ -20,5 +20,5 @@ dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-releaseNotes: "Umbrel package 0.2.2 keeps the verified multi-architecture 0.2.1 runtime image and restores the storefront app icon by using the bundled icon.svg instead of a GitHub blob URL."
+releaseNotes: "Umbrel package 0.2.2 now uses the freshly published multi-architecture 0.2.2 runtime image and the bundled icon.svg for storefront display."
 submitter: SoggyHammyDev
