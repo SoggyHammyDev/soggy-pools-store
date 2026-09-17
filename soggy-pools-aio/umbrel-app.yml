@@ -2,7 +2,7 @@ manifestVersion: 1
 id: soggy-pools-aio
 category: bitcoin
 name: Soggy Pools AIO
-version: "0.2.6"
+version: "0.2.7"
 tagline: SHA-256 and Scrypt solo mining
 icon: https://raw.githubusercontent.com/SoggyHammyDev/soggy-pools-store/main/soggy-pools-aio/icon.svg
 description: >-
@@ -21,5 +21,5 @@ dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-releaseNotes: "Improves LTC+DOGE merged-mining stale-work handling with rapid tip detection and clean job refreshes, adds clearer stale/orphaned candidate status, and adds per-worker Scrypt best-share reset controls."
+releaseNotes: "Adds per-worker best-share reset controls directly in the Workers tab for both SHA-256 and Scrypt mining. SHA-256 resets restart only the affected CKPool process while keeping the node online. Also retains the merged-mining stale-work fixes from 0.2.6."
 submitter: SoggyHammyDev
