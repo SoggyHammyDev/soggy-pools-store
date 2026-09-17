@@ -2,7 +2,7 @@ manifestVersion: 1
 id: soggy-pools-aio
 category: bitcoin
 name: Soggy Pools AIO
-version: "0.2.7"
+version: "0.2.8"
 tagline: SHA-256 and Scrypt solo mining
 icon: https://raw.githubusercontent.com/SoggyHammyDev/soggy-pools-store/main/soggy-pools-aio/icon.svg
 description: >-
@@ -21,5 +21,5 @@ dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-releaseNotes: "Adds per-worker best-share reset controls directly in the Workers tab for both SHA-256 and Scrypt mining. SHA-256 resets now clear the selected worker's live CKPool best directly, without restarting the node or pool, so old best values do not return. Also retains the merged-mining stale-work fixes from 0.2.6."
+releaseNotes: "Fixes per-worker SHA-256 best-share resets so the selected worker's live CKPool best is cleared directly and does not return on refresh. Includes Workers-tab reset controls for SHA-256 and Scrypt plus the merged-mining stale-work fixes from 0.2.6."
 submitter: SoggyHammyDev
