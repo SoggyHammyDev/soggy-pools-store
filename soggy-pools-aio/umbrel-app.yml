@@ -2,7 +2,7 @@ manifestVersion: 1
 id: soggy-pools-aio
 category: bitcoin
 name: Soggy Pools AIO
-version: "0.2.5"
+version: "0.2.6"
 tagline: SHA-256 and Scrypt solo mining
 icon: https://raw.githubusercontent.com/SoggyHammyDev/soggy-pools-store/main/soggy-pools-aio/icon.svg
 description: >-
@@ -21,5 +21,5 @@ dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-releaseNotes: "Adds the Soggy Pools browser favicon. Also includes the DigiByte RPC capacity improvements, corrected Dogecoin network difficulty display, SHA256 navigation label, Discord, donations, and safe node uninstall controls."
+releaseNotes: "Improves LTC+DOGE merged-mining stale-work handling with rapid tip detection and clean job refreshes, adds clearer stale/orphaned candidate status, and adds per-worker Scrypt best-share reset controls."
 submitter: SoggyHammyDev
