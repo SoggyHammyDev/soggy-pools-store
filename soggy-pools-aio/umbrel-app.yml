@@ -21,5 +21,5 @@ dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-releaseNotes: "Adds per-worker best-share reset controls directly in the Workers tab for both SHA-256 and Scrypt mining. SHA-256 resets restart only the affected CKPool process while keeping the node online. Also retains the merged-mining stale-work fixes from 0.2.6."
+releaseNotes: "Adds per-worker best-share reset controls directly in the Workers tab for both SHA-256 and Scrypt mining. SHA-256 resets now clear the selected worker's live CKPool best directly, without restarting the node or pool, so old best values do not return. Also retains the merged-mining stale-work fixes from 0.2.6."
 submitter: SoggyHammyDev
