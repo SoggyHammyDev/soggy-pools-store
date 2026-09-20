@@ -2,7 +2,7 @@ manifestVersion: 1
 id: soggy-pools-aio
 category: bitcoin
 name: Soggy Pools AIO
-version: "0.2.92"
+version: "0.2.93"
 tagline: SHA-256 and Scrypt solo mining
 icon: https://raw.githubusercontent.com/SoggyHammyDev/soggy-pools-store/main/soggy-pools-aio/icon.svg
 description: >-
@@ -21,5 +21,5 @@ dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-releaseNotes: "Fixes Discord ATH resets replaying the pre-reset lifetime best, prevents old or unrelated XEC/SHA block history from being misattributed to the current top worker, preserves exact Scrypt block submitter/share metadata, and auto-dismisses dashboard action banners after 5 seconds."
+releaseNotes: "Fixes BCH/SHA worker resets so the supervisor also clears its in-memory lifetime-best cache; Discord no longer re-sends the old lifetime ATH after reset. Includes the 0.2.92 block-alert attribution and auto-dismiss banner fixes."
 submitter: SoggyHammyDev
