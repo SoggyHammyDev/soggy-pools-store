@@ -2,7 +2,7 @@ manifestVersion: 1
 id: soggy-pools-aio
 category: bitcoin
 name: Soggy Pools AIO
-version: "0.2.96"
+version: "0.2.97"
 tagline: SHA-256 and Scrypt solo mining
 icon: https://raw.githubusercontent.com/SoggyHammyDev/soggy-pools-store/main/soggy-pools-aio/icon.svg
 description: >-
@@ -21,5 +21,5 @@ dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-releaseNotes: "Persists accepted and rejected share totals across CKPool/app restarts, preventing cumulative share counts from dropping after a restart. Moves destructive pool/service controls into Settings for safer mobile use and adds service management and danger-zone controls."
+releaseNotes: "Updates the in-app Discord invite and removes the conflicting host port 4567 mapping from the Umbrel package."
 submitter: SoggyHammyDev
