@@ -2,7 +2,7 @@ manifestVersion: 1
 id: soggy-pools-aio
 category: bitcoin
 name: Soggy Pools AIO
-version: "0.2.98"
+version: "0.2.99"
 tagline: SHA-256 and Scrypt solo mining
 icon: https://raw.githubusercontent.com/SoggyHammyDev/soggy-pools-store/main/soggy-pools-aio/icon.svg
 description: >-
@@ -21,5 +21,5 @@ dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-releaseNotes: "Restores the LTC + DOGE merged-mining image in Discord webhook notifications by moving its logo to a public Soggy Pools Store asset."
+releaseNotes: "Fixes missing confirmed DOGE and LTC block-found Discord alerts for merged mining. Uses the merged-mining logo, retains the winning coin and worker, and only marks block alerts as queued when notification settings accept them."
 submitter: SoggyHammyDev
