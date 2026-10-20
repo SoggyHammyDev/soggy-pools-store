@@ -1,5 +1,14 @@
 # Soggy Pools Umbrel Store
 
+## Upcoming v0.2.103 — DigiByte Thaw Day readiness
+
+- Upgrade the bundled DigiByte Core node from v9.26.5 to v9.26.7 in the AIO build image.
+- Prepare for DigiByte mainnet Thaw Day activation at block 24,490,000.
+- The same DigiByte node serves DGB SHA-256d and DGB Scrypt mining.
+- Preserve the existing `/data` volume, payout settings, ports and app ID.
+
+**Release gate:** The updated multi-architecture Docker image must first be built, verified and published. The store Compose image reference remains pinned to the previous published image until that gate passes. This branch is not ready to merge/deploy yet.
+
 Add `https://github.com/SoggyHammyDev/soggy-pools-store` as a community app store in Umbrel.
 
 - BTC, BCH, XEC, DGB SHA-256d and BCH2 solo pools
