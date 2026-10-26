@@ -2,7 +2,7 @@ manifestVersion: 1
 id: soggy-pools-aio
 category: bitcoin
 name: Soggy Pools AIO
-version: "0.2.103"
+version: "0.2.104"
 tagline: SHA-256 and Scrypt solo mining
 icon: https://raw.githubusercontent.com/SoggyHammyDev/soggy-pools-store/main/soggy-pools-aio/icon.svg
 description: >-
@@ -21,5 +21,5 @@ dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-releaseNotes: "Updates bundled DigiByte Core from v9.26.5 to v9.26.7 ahead of Thaw Day activation at block 24,490,000. Updates the shared DigiByte node for SHA-256d and Scrypt pools while preserving existing chain data, ports, payout settings, and miner configuration."
+releaseNotes: "Fixes unintended CKPool restarts following temporary node RPC or supervisor errors. Preserves active miner connections during recovery and improves diagnostic logging."
 submitter: SoggyHammyDev
